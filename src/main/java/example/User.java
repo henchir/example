@@ -5,9 +5,9 @@ public class User extends Person {
 	private String userName;
 	private String password;
 
-	public User(String firstName, String lastName, String userNamer, String password) {
+	public User(String firstName, String lastName, String userName, String password) {
 		super(firstName, lastName);
-		this.userName = userNamer;
+		this.userName = userName;
 		this.password = password;
 	}
 
