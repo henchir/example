@@ -5,6 +5,12 @@ public class User extends Person {
 	private String userName;
 	private String password;
 
+	/**
+	 * @param firstName
+	 * @param lastName
+	 * @param userName
+	 * @param password
+	 */
 	public User(String firstName, String lastName, String userName, String password) {
 		super(firstName, lastName);
 		this.userName = userName;
@@ -27,5 +33,4 @@ public class User extends Person {
 		this.password = password;
 	}
 	
-	// modif 2
 }
