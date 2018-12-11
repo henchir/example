@@ -33,5 +33,4 @@ public class User extends Person {
 		this.password = password;
 	}
 	
-	// modif 2
 }
